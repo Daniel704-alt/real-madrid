@@ -23,6 +23,12 @@ header h1 {
     height: auto;
     display: block;
     margin: 0 auto 10px;
+    animation: logo-bounce 1.2s ease-in-out infinite;
+}
+
+@keyframes logo-bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-15px); }
 }
 
 .player-image {
